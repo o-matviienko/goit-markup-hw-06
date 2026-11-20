@@ -1,0 +1,38 @@
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.features-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.features {
+  display: flex;
+  gap: 24px;
+}
+.ftr-items {
+  width: 264px;
+}
+.features-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
+.features-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.features {
+  padding: 120px 0;
+}
