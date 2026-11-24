@@ -9,6 +9,7 @@
   line-height: 1.33333;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 0 16px;
 }
 .accent-header {
   color: #4d5ae5;
@@ -19,9 +20,6 @@
 }
 
 @media screen and (max-width: 767.98px) {
-  .header {
-    padding: 0 16px;
-  }
   .nav-menu {
     display: none;
   }
@@ -31,9 +29,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding: 0 16px;
-  }
   .nav-link {
     position: relative;
     display: inline-block;
@@ -106,5 +101,9 @@
     padding: 24px 0;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+  }
+  .nav-menu {
+    margin-left: 76px;
   }
 }
