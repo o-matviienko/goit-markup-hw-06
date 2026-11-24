@@ -9,7 +9,7 @@
   line-height: 1.33333;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 0 16px;
+  padding: 16px 0;
 }
 .accent-header {
   color: #4d5ae5;
@@ -17,6 +17,8 @@
 .header .container {
   display: flex;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 767.98px) {
