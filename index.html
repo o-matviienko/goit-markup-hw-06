@@ -25,13 +25,6 @@
         <a class="logo" href="./index.html"
           ><span class="accent-header">Web</span>Studio</a
         >
-
-        <button class="mobile-menu-btn" type="button">
-          <svg class="mobile-menu-btn-icon" weight="24" height="24">
-            <use href="./images/icons.svg#burger-menu"></use>
-          </svg>
-        </button>
-
         <nav class="nav-menu">
           <ul class="main-nav-menu">
             <li><a class="nav-link current" href="#features">Features</a></li>
@@ -53,6 +46,11 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -490,7 +488,7 @@
       <div class="container">
         <div class="footer-top">
           <div class="main">
-            <a href="./index.html"
+            <a class="footer-main-title" href="./index.html"
               ><span class="accent-footer">Web</span>Studio</a
             >
             <p class="footer-text">
@@ -569,35 +567,41 @@
     <div class="mobile-menu" id="mobile-menu">
       <div class="mobile-menu-container">
         <button class="mobile-menu-btn">
-          <svg class="mobile-menu-btn-icon" width="24" height="24">
+          <svg class="mobile-menu-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <ul class="mobile-menu-list">
-          <li class="mobile-menu-item">
-            <a class="mobile-menu-link active" href="#features">Features</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="#team">Team</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="#portfolio">Portfolio</a>
-          </li>
-        </ul>
-
-        <ul class="mobile-menu-list-address">
-          <li class="mobile-menu-item-address">
-            <a class="mobile-menu-link-address active" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-          <li class="mobile-menu-item-address">
-            <a class="mobile-menu-link-address" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link active" href="#features">Features</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#team">Team</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-menu-address">
+          <ul class="mobile-menu-list-address">
+            <li class="mobile-menu-item-address">
+              <a
+                class="mobile-menu-link-address active"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-item-address">
+              <a
+                class="mobile-menu-link-address"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
         <ul class="mobile-list-social-icons">
           <li>
             <a

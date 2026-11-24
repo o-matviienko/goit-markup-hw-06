@@ -51,9 +51,10 @@ img {
 /* Mobile version */
 .container {
   width: 100%;
-  max-width: 320px;
+  max-width: 352px;
   padding: 16px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .section {

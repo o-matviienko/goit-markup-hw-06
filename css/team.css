@@ -31,7 +31,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 72px;
 }
 .team-img {
   width: 100%;
@@ -84,8 +84,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .team-main {
+    gap: 64px 24px;
+  }
   .team-img {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 48px) / 2);
   }
 }
 @media screen and (min-width: 1158px) {

@@ -54,8 +54,7 @@
   }
   .contacts-link {
     font-size: 12px;
-    padding: 16px 0;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     transition: color 250ms ease-in-out;
   }
@@ -65,7 +64,7 @@
   .nav-menu {
     text-transform: lowercase;
     text-transform: capitalize;
-    margin-left: 76px;
+    margin-left: 120px;
     margin-right: auto;
   }
 
@@ -104,6 +103,8 @@
     gap: 40px;
   }
   .contacts-link {
+    padding: 24px 0;
     font-size: 16px;
+    letter-spacing: 0.02em;
   }
 }

@@ -98,11 +98,14 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .portfolio-list {
+    row-gap: 48px;
+  }
   .portfolio {
     padding: 120px 0;
   }
   .portfolio-name {
-    width: calc((100% - 24px * 3) / 3);
+    width: calc((100% - 24px * 2) / 3);
   }
   .portfolio-ill {
     width: 360px;
