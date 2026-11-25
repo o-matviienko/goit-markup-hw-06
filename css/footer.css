@@ -64,12 +64,13 @@
   align-items: center;
   gap: 72px 24px;
 }
+
 .footer-form {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 100%;
 }
 
 .footer-subscribe {
@@ -84,7 +85,6 @@
 }
 
 .footer-button {
-  margin: 0 auto;
   letter-spacing: 0.04em;
 }
 
@@ -127,18 +127,14 @@
     max-width: 264px;
   }
   .footer-form {
-    flex-direction: row;
-    align-items: center;
     gap: 24px;
+    justify-content: start;
   }
   .footer-input {
     width: 264px;
   }
   .footer-social-icons {
     justify-content: flex-start;
-  }
-  .footer-subscribe {
-    width: 100%;
   }
   .footer-subscribe-title {
     text-align: left;
