@@ -106,9 +106,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
-    margin-left: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     gap: 72px 24px;
     max-width: 100%;
+    box-sizing: border-box;
   }
   .footer {
     text-align: left;
