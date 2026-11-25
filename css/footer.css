@@ -105,10 +105,10 @@
   .footer-top {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: start;
+    margin-left: 60px;
     gap: 72px 24px;
     max-width: 100%;
-    margin: 0 auto;
   }
   .footer {
     text-align: left;
@@ -128,7 +128,6 @@
     justify-content: flex-start;
   }
   .footer-subscribe {
-    margin-left: 0;
     width: 100%;
   }
 }
@@ -180,12 +179,9 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
-  margin: 0 0 16px;
   color: #ffffff;
 }
-.footer-subscribe {
-  margin-left: auto;
-}
+
 .footer-input {
   height: 40px;
   padding: 8px 16px;
