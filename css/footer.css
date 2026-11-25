@@ -120,6 +120,7 @@
     max-width: 100%;
     box-sizing: border-box;
     align-items: start;
+    padding: 0 108px;
   }
   .footer {
     text-align: left;
