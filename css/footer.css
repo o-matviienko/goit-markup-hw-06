@@ -73,7 +73,6 @@
 }
 
 .footer-subscribe {
-  width: 100%;
   gap: 16px;
 }
 
@@ -106,14 +105,18 @@
   fill: #f4f4fd;
 }
 
+.footer-main-title {
+  display: block;
+  margin-bottom: 16px;
+}
+
 @media screen and (min-width: 768px) {
   .footer-top {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
-    padding-left: 60px;
-    padding-right: 60px;
-    gap: 72px 24px;
+    padding-left: 16px;
+    padding-right: 16px;
     max-width: 100%;
     box-sizing: border-box;
   }
@@ -149,13 +152,13 @@
   }
   .footer-top {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: flex-start;
     max-width: 100%;
     margin: 0;
     gap: 0;
+    padding: 0;
   }
   .footer-wrapper {
     margin-left: 120px;
