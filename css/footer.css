@@ -119,6 +119,7 @@
     padding-right: 16px;
     max-width: 100%;
     box-sizing: border-box;
+    align-items: start;
   }
   .footer {
     text-align: left;
